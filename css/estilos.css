@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+------------------------------------------/* nav-section */------------------------
+h1{
+font-style: italic  ; 
+}
+
+
+.nav-item{
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+.title{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
