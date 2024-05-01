@@ -7,6 +7,11 @@ h1{
 font-style: italic  ; 
 }
 
+a {
+  text-decoration:none !important; 
+  color: rgb(0, 0, 0) !important;
+
+}
 
 .nav-item{
     margin-left: 3%;
@@ -16,3 +21,54 @@ font-style: italic  ;
 .title{
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.home--container{
+width: 100%;
+height:65vh;
+background-image: url(../assets/56-izrastzoff_index.jpg) ;
+background-size: cover;
+background-position: center center;
+
+}
+
+
+
+.home--container--buttons{
+  justify-content: center;
+  align-items: center;
+width: 100%;
+flex-direction:column;
+height: 300px;
+}
+
+.home--container--buttons h3{
+  font-size: xx-large;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-weight:300
+}
+
+#input--group {
+  width: 50%;
+}
+
+#input--group button{
+
+
+background: #468d60;
+background: radial-gradient(at center, #2B4434, #117598);
+color: aliceblue;
+}
+
+
+
+.card{
+  max-width: 60%;
+  margin-left: 5%;
+
+}
+
+.card img{
+  max-height: 300px;
+}
+

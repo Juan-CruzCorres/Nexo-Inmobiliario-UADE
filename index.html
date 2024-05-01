@@ -30,14 +30,19 @@
       <div class=" p-1 m-1 container-fluid ">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active btn btn-light" aria-current="page" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-light" href="./pages/sobre-nosotros.html">ABOUT US</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-light" href="./pages/contacto.html">CONTACT</a>
-        </li>
+          <a class="nav-link active btn btn-light " aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link btn btn-light" href="./pages/comprar.html">COMPRAR</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link btn btn-light" href="./pages/vender.html">VENDER</a>
+          </li><li class="nav-item">
+          <a class="nav-link btn btn-light" href="./pages/contacto.html">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link btn  btn-light" href="./pages/sobre-nosotros.html">ABOUT US</a>
+          </li>
         
       </ul>
     </div>   
@@ -45,37 +50,61 @@
     <br>
     <!-- Main section -->
     <main>
-        <h2> Quienes somos? </h2> <p>
-            Somos una empresa dedicada a la compra y venta de bienes raices, 
-            buscamos la excelencia al brindarte  un servicio personalizado para que elijas tu proximo hogar.
+    
 
-
-        </p>
-    <br>
-    <section>
-    <h3>Tendencias en CABA</h3>
-
-    <div>
-    <img src="assets/casa1.webp" alt="casa1" width="300" height="200">
-    <p>Departamento de 3 ambientes reformado a 2 amplios ambientes con nivel de detalle de diseño y decoración en la iluminación.</p>
-    <p>PALERMO CHICO</p>
+    <section class="home--container mb-5">
+    
+    <div class="home--container--buttons d-flex">
+      <h3>Tu nuevo hogar a solo un click </h3>
+      <div id="input--group" class=" input-group mt-5 mb-3">
+        <input placeholder="ingrese una region/localidad" type="text" class="form-control" aria-label="Text input with dropdown button">
+        <button class="btn btn-dark btn-outline-secondary dropdown-toggle" type="" data-bs-toggle="dropdown" aria-expanded="" >Tipo de propiedad</button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Casa</a></li>
+          <li><a class="dropdown-item" href="#">Departamento</a></li>
+          <li><a class="dropdown-item" href="#">PH</a></li>
+          <li><a class="dropdown-item" href="#">garage</a></li>
+          <li><a class="dropdown-item" href="#">hotel</a></li>
+          <li><a class="dropdown-item" href="#">terrenos y lotes</a></li>
+        </ul>
+      </div>
+      <button type="button" class="btn  btn-success btn-lg ">BUSCAR</button>
+      
     </div>
-    <div>
-        <img src="assets/casa2.webp" alt="casa2" width="300" height="200">
-    <p>
-        Monoambiente Contra frente. Piso 13 con hermosa vista abierta. Excelente ubicación a metros del subte y estación de tren San Martin.
-    </p>
-    <p>VILLA CRESPO</p>
-    </div>
-    <div>
-        <img src="assets/casa3.webp" alt="casa1" width="300" height="200">
-        <p>
-            DEPARTAMENTO 3 AMBIENTES EN ALQUILER, EXCELENTE UBICACION EN LA CALLE MOLDES AL 1400.
-            56m² totales, con espacio guarda-coches.
-        </p>
-        <p>BELGRANO</p>
-    </div>
+    
     </section>
+
+    <section>
+      <div>
+        <div class="card mb-3">
+          <img src="assets/casa1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PALERMO CHICO</h5>
+            <p class="card-text p-1">Departamento de 3 ambientes reformado a 2 amplios ambientes con nivel de detalle de diseño y decoración en la iluminación.</p>
+         
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="assets/casa2.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">VILLA CRESPO</h5>
+            <p class="card-text p-1">       Monoambiente Contra frente. Piso 13 con hermosa vista abierta. Excelente ubicación a metros del subte y estación de tren San Martin.</p>
+         
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="assets/casa3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BELGRANO</h5>
+            <p class="card-text p-1">            DEPARTAMENTO 3 AMBIENTES EN ALQUILER, EXCELENTE UBICACION EN LA CALLE MOLDES AL 1400.
+              56m² totales, con espacio guarda-coches.</p>
+         
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
 
     </main>
 
