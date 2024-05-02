@@ -117,3 +117,24 @@ background-position:left;
   border: 5px #000000;
   border-style: double;
 }
+
+.comprar--container{
+
+height: 100px;
+background-color: #00c75383;
+margin-top: 20px;
+align-items: center;
+width: 90%;
+margin-left: 5%;
+}
+
+.comprar--container select {
+
+width: 20%;
+height: 50%;
+}
+
+#input--span{
+  height: 50%;
+  width: auto;
+}
