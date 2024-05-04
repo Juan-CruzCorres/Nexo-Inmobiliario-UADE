@@ -5,6 +5,8 @@
 
   body{
     background-color: antiquewhite;
+
+    
   }
 ------------------------------------------/* nav-section */------------------------
 h1{
@@ -137,4 +139,9 @@ height: 50%;
 #input--span{
   height: 50%;
   width: auto;
+}
+
+#footer{
+
+  border-style: ridge;
 }
